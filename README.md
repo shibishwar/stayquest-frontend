@@ -1,8 +1,30 @@
-# React + Vite
+# STAYQUEST - Hotel Booking Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+STAYQUEST is a hotel booking platform that allows users to search, filter, and book hotels. The platform includes semantic search capabilities and secure authentication.
 
-Currently, two official plugins are available:
+## Features
 
--   [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
--   [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Displays a list of available hotels.
+- Semantic search to find the best match.
+- Filter hotels by location and price range, and sort by price or alphabetically.
+- Users can book hotels with check-in and check-out dates.
+- Users can view and manage their bookings.
+- Clerk authentication for secure user management.
+- Admins can create new hotel listings.
+
+## Admin Access
+
+Use the following credentials to check admin features:
+
+- **Email:** `admin@admin.com`
+- **Password:** `admin@stayquest`
+
+## Backend Repository
+
+To view the backend, visit the repository:  
+[stayquest-backend](https://github.com/shibishwar/stayquest-backend.git)
+
+## Deployed Project
+
+You can access the live project here:  
+[Deployed STAYQUEST](https://aidf-stayquest-frontend-shibishwar.netlify.app/)
