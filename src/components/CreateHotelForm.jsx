@@ -49,27 +49,6 @@ const CreateHotelForm = () => {
         },
     });
 
-    // const handleSubmit = async (values) => {
-    //     const { name, location, image, price, description, amenities } = values;
-    //     const toastId = toast.loading("Creating hotel...");
-    //     try {
-    //         await createHotel({
-    //             name,
-    //             location,
-    //             image,
-    //             price,
-    //             description,
-    //             amenities,
-    //         }).unwrap();
-    //         toast.success("Hotel created successfully");
-    //         refetch();
-    //     } catch (error) {
-    //         toast.error("Hotel creation failed");
-    //     } finally {
-    //         toast.dismiss(toastId);
-    //     }
-    // };
-
     const handleSubmit = async (values) => {
         const { name, location, image, price, description, amenities } = values;
         const toastId = toast.loading("Creating hotel...");
