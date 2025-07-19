@@ -2,7 +2,7 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 // Base URL of your backend server
-const BACKEND_URL = "http://localhost:8000";
+const BACKEND_URL = "https://aidf-stayquest-backend-shibishwar.onrender.com";
 
 // Create the API service using RTK Query
 export const api = createApi({
